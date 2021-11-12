@@ -1,0 +1,80 @@
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/now-ui-kit.css">
+<link rel="script" href="js/app.js">
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap" rel="stylesheet">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T&T Modification</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <h1>Vi bygger</h1>
+                    <h2 class="subtitle">Vi arbejder hårdt, på at få hjemmesiden op og køre, hold dig opdatere via
+                        countdown.</h2>
+                        <style>
+                            p {
+                              text-align: center;
+                              font-size: 60px;
+                              margin-top: 0px;
+                              color: #ffffff !important;
+                            }
+                            </style>
+                            </head>
+                            <body>
+                            
+                            <p id="demo"></p>
+                            
+                            <script>
+                            // Set the date we're counting down to
+                            var countDownDate = new Date("Nov 14, 2021 17:00:00").getTime();
+                            
+                            // Update the count down every 1 second
+                            var x = setInterval(function() {
+                            
+                              // Get today's date and time
+                              var now = new Date().getTime();
+                                
+                              // Find the distance between now and the count down date
+                              var distance = countDownDate - now;
+                                
+                              // Time calculations for days, hours, minutes and seconds
+                              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                                
+                              // Output the result in an element with id="demo"
+                              document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+                              + minutes + "m " + seconds + "s ";
+                                
+                              // If the count down is over, write some text 
+                              if (distance < 0) {
+                                clearInterval(x);
+                                document.getElementById("demo").innerHTML = "EXPIRED";
+                              }
+                            }, 1000);
+                            </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
