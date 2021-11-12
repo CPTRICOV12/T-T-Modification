@@ -1,0 +1,385 @@
+body {
+    font-family: 'Poppins', sans-serif !important;
+    background-color: #1D1E28;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    border-top: 6px #00aeff solid !important;
+    font-size: 16px;
+}
+
+.nav-link {
+     font-size: 14px !important;
+     background: transparent !important;
+     font-family: Lato, sans-serif !important;
+     text-transform: capitalize !important;
+ }
+ .nav-link:hover {
+     background: transparent !important;
+     color: #ff2424 !important;
+     font-weight: bold !important;
+ }
+
+ .login-btn {
+     border: 2px solid #2b6dfc !important;
+     font-size: 10px !important;
+ }
+ .login-btn:hover {
+     background: #c5c5c5 !important;
+ }
+.navbar {
+    box-shadow: none !important
+}
+
+.navbar-brand {
+    font-size: 25px !important
+}
+
+.navbar-toggler-icon {
+    color: #fff !important
+}
+
+.btn {
+    border-radius: 10px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+}
+
+.btn-primary {
+    background-color: #0084ff!important
+}
+.btn-secondary {
+    background-color: #2C2F33 !important
+}
+.heading {
+    padding: 160px 50px !important;
+    color: #fff !important;
+    background-image: url("../assets/wavy-purple-by-CPTRICO.svg") !important;
+    background-position: bottom !important;
+    background-size: 300% !important;
+    background-repeat: no-repeat !important;
+}
+
+.headingShop {
+    padding: 5px 5px !important;
+    color: #fff !important;
+    background-image: url("../assets/wavy-purple-by-CPTRICO.svg") !important;
+    background-position: bottom !important;
+    background-size: 50% !important;
+    background-repeat: no-repeat !important;
+}
+
+.title {
+    line-height: 90px !important;
+    margin-bottom: -2px !important;
+    font-size: 36px !important
+}
+
+.subtitle {
+    color: rgba(255, 255, 255, 0.685) !important;
+    font-size: 16px !important;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.features {
+    text-align: center !important;
+    background: #0099ff !important;
+    padding: 60px 50px !important;
+    background-image: url("../assets/wavy-dark-by-CPTRICO.svg") !important;
+    background-position: bottom !important;
+    background-size: 200% !important;
+    background-repeat: no-repeat !important;
+}
+.features .title {
+    font-size: 40px !important;
+    color: #ffffff !important;
+    line-height: 70px !important;
+}
+
+.features .subtitle {
+    font-size: 20px !important;
+    color: #a2a8bd;
+}
+
+.features .card-body {
+    text-align: left !important;
+}
+
+.features .card-title {
+    margin: 0 0 -3px !important;
+}
+.cards {
+    margin-top: 30px !important;
+}
+
+.card {
+    border-radius: 5px !important;
+    box-shadow: none !important;
+}
+
+.card-title {
+    font-size: 28px !important;
+    font-weight: 600 !important;
+    color: #ffffff !important;
+}
+
+.statistics {
+    text-align: center !important;
+    padding-top: 300px !important;
+}
+
+.statistics .card-body{
+    padding: 0 !important;
+    height: 280 !important;
+    width: 332 !important;
+    max-height: 280 !important;
+    max-width: 332 !important;
+}
+
+.statistics .title {
+    font-size: 40px !important;
+    color: #ffffff !important;
+    line-height: 70px !important;
+}
+
+.statistics .subtitle {
+    font-size: 20px !important;
+    color: #a2a8bd;
+}
+
+.card.statistic {
+    background: transparent !important;
+    box-shadow: none !important;
+    color: #f7f7f7 !important;
+}
+
+
+.page_end {
+    background-image: url("../assets/wavy-light-by-CPTRICO.svg") !important;
+    background-position: bottom !important;
+    background-size: 200% !important;
+    background-repeat: no-repeat !important;
+}
+.start {
+    padding: 60px 50px !important
+}
+
+.start .card {
+    background: transparent !important;
+    color: #f6f9ff !important;
+}
+
+.features .card {
+    background: #1D1E28;
+    border-radius: 22px !important;
+    border: 4px solid #0400ff;
+}
+.features .card-text {
+color: rgba(255, 255, 255, 0.46) !important
+}
+
+.features .card-body {
+    padding: 40px 40px 40px 30px !important;
+}
+
+.navbar-toggler-icon {
+    color: #fff !important
+}
+.footerShop {
+    text-align: center !important;
+    padding: 5px 6px !important;
+    color: #ecf2ff;
+    padding: 10px 10px !important
+}
+
+.footerShop .CPTRICO {
+    font-family: 'Montserrat' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 2px !important;
+    letter-spacing: 0.15em !important;
+    font-variant: small-caps !important;
+}
+
+.footerShop .CPTRICO a {
+    color: #ff0000 !important;
+    text-decoration: none !important;
+}
+
+/* ==== Google font ==== */
+@import url('http://fonts.googleapis.com/css?family=Lato:400,300,700,900');
+
+body {
+    background: #394864;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6em;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #444;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h3 {
+	font-weight: 400;
+}
+
+h4 {
+	font-weight: 400;
+	font-size: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+
+a {
+    color: #ACBAC1;
+    word-wrap: break-word;
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #4F92AF;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+.alignleft {
+    text-align: left;
+}
+.alignright {
+    text-align: right;
+}
+
+.aligncenter {
+    text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+       -o-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 0;
+}
+
+.btn-theme  {
+  color: #fff;
+  background-color: #4F92AF;
+  border-color: #4F92AF;
+}
+.btn-theme:hover  {
+  color: #fff;
+  background-color: #444;
+  border-color: #444;
+}
+form.signup input  {
+	height: 42px;
+	width: 200px;
+	border-radius: 0;
+	border: none;
+}
+form.signup button.btn {
+	font-weight: 700;
+}
+form.signup input.form-control:focus {
+	border-color: #fd680e;
+}
+
+
+/* wrapper */
+
+#wrapper {
+	text-align: center;
+	padding: 50px 0;
+	background: url(http://fin6.com/wp-content/uploads/2014/01/33ea39729b31df9e82e8afc2c1553b185.jpg) no-repeat center top;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 650px;
+	width: 100%;	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+#wrapper h1 {
+	margin-top: 60px;
+	margin-bottom: 40px;
+	color: #fff;
+	font-size: 45px;
+	font-weight: 900;
+	letter-spacing: -1px;
+}
+
+h2.subtitle {
+	color: #fff;
+	font-size: 24px;
+}
+
+/* countdown */
+#countdown {
+	font-size: 48px;
+	color: #fff;
+	line-height: 1.1em;
+	margin: 40px 0 60px;
+}
+
+
+/* footer */
+p.copyright {
+	margin-top: 50px;
+	color: #fff;
+	text-align: center;
+}	
