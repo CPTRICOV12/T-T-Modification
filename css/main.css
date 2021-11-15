@@ -54,31 +54,24 @@ body {
     background-color: #2C2F33 !important
 }
 .heading {
-    padding: 160px 50px !important;
-    color: #fff !important;
+    padding: 100px 50px !important;
+    color: rgb(0, 0, 0) !important;
     background-image: url("../assets/wavy-purple-by-CPTRICO.svg") !important;
     background-position: bottom !important;
     background-size: 300% !important;
     background-repeat: no-repeat !important;
 }
 
-.headingShop {
-    padding: 5px 5px !important;
-    color: #fff !important;
-    background-image: url("../assets/wavy-purple-by-CPTRICO.svg") !important;
-    background-position: bottom !important;
-    background-size: 50% !important;
-    background-repeat: no-repeat !important;
-}
 
 .title {
+    color: rgb(201, 201, 201) !important;
     line-height: 90px !important;
     margin-bottom: -2px !important;
     font-size: 36px !important
 }
 
 .subtitle {
-    color: rgba(255, 255, 255, 0.685) !important;
+    color: rgb(199, 199, 199) !important;
     font-size: 16px !important;
     font-family: 'Lato', sans-serif;
 }
@@ -123,7 +116,7 @@ body {
 .card-title {
     font-size: 28px !important;
     font-weight: 600 !important;
-    color: #ffffff !important;
+    color: #b3b3b3 !important;
 }
 
 .statistics {
@@ -190,9 +183,9 @@ color: rgba(255, 255, 255, 0.46) !important
 }
 .footerShop {
     text-align: center !important;
-    padding: 5px 6px !important;
+    padding: 100px 100px !important;
     color: #ecf2ff;
-    padding: 10px 10px !important
+    padding: 100px 100px !important
 }
 
 .footerShop .CPTRICO {
@@ -200,12 +193,34 @@ color: rgba(255, 255, 255, 0.46) !important
     font-style: normal !important;
     font-weight: 600 !important;
     font-size: 16px !important;
-    line-height: 2px !important;
+    line-height: 1px !important;
     letter-spacing: 0.15em !important;
     font-variant: small-caps !important;
 }
 
 .footerShop .CPTRICO a {
+    color: #ff0000 !important;
+    text-decoration: none !important;
+}
+
+.footer {
+    text-align: center !important;
+    padding: 10px 10px !important;
+    color: #ecf2ff;
+    padding: 10px 10px !important
+}
+
+.footer .CPTRICO {
+    font-family: 'Montserrat' !important;
+    font-style: normal !important;
+    font-weight: 100 !important;
+    font-size: 16px !important;
+    line-height: 1px !important;
+    letter-spacing: 0.15em !important;
+    font-variant: small-caps !important;
+}
+
+.footer .CPTRICO a {
     color: #ff0000 !important;
     text-decoration: none !important;
 }
@@ -226,26 +241,26 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font-weight: 500px;
     color: #444;
 }
 
 h1 {
-	font-size: 40px;
+	font-size: 30px;
 }
 
 h3 {
-	font-weight: 400;
+	font-weight: 500px;
 }
 
 h4 {
-	font-weight: 400;
-	font-size: 20px;
+	font-weight: 500px;
+	font-size: 60px;
 }
 
 p {
-    margin-bottom: 20px;
-    font-size: 16px;
+    margin-bottom: 50px;
+    font-size: 400px;
 }
 
 
@@ -288,7 +303,7 @@ a:after {
 
 .btn {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 5px 5px;
   margin-bottom: 0;
   font-size: 14px;
   font-weight: normal;
@@ -383,3 +398,109 @@ p.copyright {
 	color: #fff;
 	text-align: center;
 }	
+
+.tcontainer{
+    background: #f7f7f7;
+    padding: 45px 0; 
+    margin: 50px 0;
+    font-family: "Segoe UI","Helvetica Neue","Helvetica","Arial","sans-serif";
+    font-size: 12px;
+}
+.tlheader {
+    font-size: 24px;
+    margin: 0 0 12px;
+}
+i.fas.fa-star.tlratingicon {
+    font-size: 18px;
+    color: white;
+    background: #00b67a;
+    padding: 4px;
+    margin-left: 4px;
+}
+a.tpagelink {
+    border-bottom: 1px solid rgba(25,25,25,0.6);
+    color: #191919;
+}
+a.tpagelink:hover {
+    color: #191919;
+    text-decoration: none;
+}
+i.fas.fa-star.tllogoicon{
+    font-size: 20px;
+    color: #00b67a;
+}
+strong.textlogo {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+.carousel {
+    padding: 0 20px;
+}
+.carousel-control {
+width: 0%!important;
+}
+
+
+.tright {
+    padding: 10px;
+}
+i.fas.fa-star.ctratingicon {
+font-size: 13px;
+color: white;
+background: #00b67a;
+padding: 2px;
+}
+
+/*Not rating icon */
+i.fas.fa-star.ctratingiconless {
+    font-size: 13px;
+    color: white;
+    background: #73738f;
+    padding: 2px;
+}
+
+/*4 rating */
+i.fas.fa-star.ctratingiconfour {
+    font-size: 13px;
+    color: white;
+    background: #73cf11;
+    padding: 2px;
+}
+
+span.ctrt {
+    float: right;
+}
+.ctrs {
+    font-size: 15px;
+    padding: 6px 0px;
+    font-weight: 700;
+}
+.ctrc {
+    font-size: 13px;
+    margin-bottom: 14px;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+ margin-left: -24px!important;
+}
+i.glyphicon.glyphicon-chevron-left {
+    font-size: 24px!important;
+    border: 1px solid #777;
+    border-radius: 50%;
+    background: #eee;
+    color: #ffffff;
+}
+i.glyphicon.glyphicon-chevron-right {
+    font-size: 24px!important;
+    border: 1px solid #777;
+    border-radius: 50%;
+    background: #eee;
+    color: #ffffff;
+}
+
+
+@media screen and (max-width: 768px) {
+  .mobilebilegap {
+    margin-bottom: 15px;
+}
+}
